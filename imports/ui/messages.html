@@ -1,0 +1,31 @@
+
+<template name="messages">
+  <div>
+    
+      <!-- <div class="well well-lg"> -->
+        <ul class="list-group">
+          {{#each msg }}
+          <li class="list-group-item list-group-item-info">
+            <p style="word-break:break-all;" class="js-post-p">
+                {{ text }}
+            </p>
+          {{#if usersPost poster }}
+            <div class="pull-right">
+              <button class="btn btn-danger js-delete-button" data-id="{{_id}}">Delete Message</button>
+            </div>
+          {{/if}}
+          </li>
+
+          <br /><br />
+          {{/each}}
+        </ul>
+  </div>
+<!--
+<div class="list-group">
+  <a href="#" class="list-group-item active">
+    <h4 class="list-group-item-heading">List group item heading</h4>
+    <p class="list-group-item-text">...</p>
+  </a>
+</div>
+-->
+</template>
