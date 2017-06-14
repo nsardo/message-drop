@@ -1,7 +1,12 @@
 # message-drop
-A basic Message Board in Meteor
+A very basic Message Board in Meteor
 
 ![Screen Cast](https://github.com/nsardo/message-drop/blob/master/message-drop.gif)
+
+*Functionality*
+User's can sign-up
+Signed up users can post messages, and delete their own posted messages
+Posted messages are visible to all
 
 Open the project, and from its main directory, first do an:  npm install. 
 
