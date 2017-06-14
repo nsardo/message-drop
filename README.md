@@ -7,6 +7,8 @@ A very basic Message Board in Meteor
 - User's can sign-up
 - Signed up users can post messages, and delete their own posted messages
 - Posted messages are visible to all
+----
+*Usage*
 
 Open the project, and from its main directory, first do an:  npm install. 
 
