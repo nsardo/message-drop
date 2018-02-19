@@ -1,7 +1,7 @@
 # message-drop
 A very basic Message Board in Meteor
 
-![Screen Cast](https://github.com/nsardo/message-drop/blob/master/message-drop.gif)
+![Gif Cast](https://github.com/nsardo/message-drop/blob/master/message-drop.gif "Visual Demo")
 
 *Functionality:*
 - User's can sign-up
